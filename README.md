@@ -1,50 +1,67 @@
-# React + TypeScript + Vite
+# Game Hub
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **Game Hub**, a web application that provides comprehensive information on video games across multiple platforms, including PC, PlayStation, Xbox, and Nintendo. Powered by the RAWG Video Games Database API, Game Hub offers users insights into thousands of games, complete with platform availability, ratings, and game descriptions.
 
-Currently, two official plugins are available:
+## Table of Contents
+- [Demo](#demo)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Setup and Installation](#setup-and-installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Demo
+Check out the live application here: [Game Hub on Vercel](https://game-hub-omega-lilac.vercel.app/)
 
-## Expanding the ESLint configuration
+## Features
+- Search for games by title or filter by platform.
+- View details for each game, including release date, genres, ratings, and platforms.
+- Responsive design for a seamless experience across devices.
+- Real-time data fetched from the RAWG API.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Technologies Used
+- **Frontend**: React, TypeScript, Chakra UI for styling
+- **Backend/API**: RAWG Video Games Database API
+- **Deployment**: Vercel for hosting
+- **Version Control**: Git and GitHub
 
-- Configure the top-level `parserOptions` property like this:
+## Setup and Installation
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/anthony-iheonye/game-hub.git
+   cd game-hub
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+2. **Install dependencies**
+   ```bash
+   npm install
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+3. **API Key Configuration:**
+   - Sign up on RAWG and obtain your API key.
+   - Create a .env file in the root directory and add your RAWG API key:
+     ```env
+     REACT_APP_RAWG_API_KEY=your_api_key_here
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## Usage
+  - **Search**: Look up games by name or filter by platform and genre.
+  - **Sort**: Arrange games by relevance, name, date added, release date, popularity, and rating. 
+ 
+    
+## Contributing
+Contributions are welcome! Please fork this repository and open a pull request if you would like to contribute.
+
+## License
+This project is licensed under the MIT License.
+
+## Author
+Developed by [Anthony Iheonye](https://github.com/anthony-iheonye) | [LinkedIn](https://www.linkedin.com/in/anthony-iheonye/)
+
+ 
+
+
+
+
+
+
+
