@@ -50,6 +50,8 @@ Check out the live application here: [Game Hub on Vercel](https://game-hub-omega
 3. **API Key Configuration:**
 
    - Sign up on [RAWG](https://rawg.io/apidocs) and obtain your API key.
+   - Add the API key to **src/services/api-clients.ts.**
+     or
    - Create a .env file in the root directory and add your RAWG API key:
      ```env
      REACT_APP_RAWG_API_KEY=your_api_key_here
