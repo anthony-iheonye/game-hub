@@ -8,6 +8,7 @@ import PlatformSelector from "./components/PlatformSelector";
 import { Platform } from "./hooks/usePlatforms";
 import SortSelector from "./components/SortSelector";
 import GameHeading from "./components/GameHeading";
+import CopyrightBar from "./components/CopyrightBar";
 
 export interface GameQuery {
   genre: Genre | null;
@@ -23,9 +24,11 @@ function App() {
     <Grid
       templateAreas={{
         base: `"nav"
-               "main"`,
+               "main"
+               "copyright"`,
         lg: `"nav nav"
-             "aside main"`,
+             "aside main"
+             "copyright copyright"`,
       }}
       templateColumns={{
         base: "1fr",
@@ -64,6 +67,9 @@ function App() {
           </HStack>
         </Box>
         <GameGrid gameQuery={gameQuery} />
+      </GridItem>
+      <GridItem area="copyright">
+        <CopyrightBar />
       </GridItem>
     </Grid>
   );
