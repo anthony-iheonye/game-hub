@@ -1,6 +1,6 @@
 # Game Hub
 
-Welcome to **Game Hub**, a web application that provides comprehensive information on video games across multiple platforms, including PC, PlayStation, Xbox, and Nintendo. Powered by the RAWG Video Games Database API, Game Hub offers users insights into thousands of games, complete with platform availability, ratings, and game descriptions.
+Welcome to **Game Hub**, a web app designed to be your ultimate guide to discovering exciting games across multiple platforms—PC, PlayStation, Xbox, Android, Linux, Nintendo, and more. Powered by the RAWG Video Games Database API, **Game Hub** offers detailed insights into thousands of games, including platform compatibility, ratings, descriptions, and more. Effortlessly search by platform, genre, keyword, and more to find your next gaming adventure. Dive in and explore your new favorite games with **Game Hub!**
 
 ## Table of Contents
 
