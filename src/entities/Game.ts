@@ -7,6 +7,7 @@ export interface Game {
   slug: string;
   description_raw: string;
   name: string;
+  game_pk: string;
   genres: Genre[];
   publishers: Publisher[];
   background_image: string;
