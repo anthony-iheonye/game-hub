@@ -28,8 +28,10 @@ Check out the live application here: [Game Hub](https://anthonyiheonye.com/)
 
 ### Mobile
 
-<img src='./src/assets/phone.jpg' width=350 />
-<img src='./src/assets/phone-detail.jpg' width=350 />
+<div style="display: flex; justify-content: space-between;">
+   <img src='./src/assets/phone.jpg' width=350 />
+   <img src='./src/assets/phone-detail.jpg' width=350 />
+<div>
 
 ## Features
 
