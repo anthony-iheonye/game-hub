@@ -14,20 +14,22 @@ Welcome to **Game Hub**, a web app designed to be your ultimate guide to discove
 
 ## Demo
 
-Check out the live application here: [Game Hub on Vercel](https://anthonyiheonye.com/)
+Check out the live application here: [Game Hub](https://anthonyiheonye.com/)
 
-#### Laptop
+### Laptop
 
 ![Screenshot](./src/assets/laptop.jpg)
 ![detail](./src/assets/detail.jpg)
 
-#### Tablet
+### Tablet
 
-![Tablet](./src/assets/tablet.jpg)
+<img src='./src/assets/tablet-landscape.jpg' width=768 />
+<img src='./src/assets/tablet.jpg' width=768 />
 
-#### Mobile
+### Mobile
 
-![mobile](./src/assets/phone.jpg)
+<img src='./src/assets/phone.jpg' width=350 />
+<img src='./src/assets/phone-detail.jpg' width=350 />
 
 ## Features
 
