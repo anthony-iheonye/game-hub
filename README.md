@@ -14,7 +14,20 @@ Welcome to **Game Hub**, a web app designed to be your ultimate guide to discove
 
 ## Demo
 
-Check out the live application here: [Game Hub on Vercel](https://game-hub-omega-lilac.vercel.app/)
+Check out the live application here: [Game Hub on Vercel](https://anthonyiheonye.com/)
+
+#### Laptop
+
+![Screenshot](./src/assets/laptop.jpg)
+![detail](./src/assets/detail.jpg)
+
+#### Tablet
+
+![Tablet](./src/assets/tablet.jpg)
+
+#### Mobile
+
+![mobile](./src/assets/phone.jpg)
 
 ## Features
 
