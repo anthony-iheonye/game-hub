@@ -11,7 +11,7 @@ const NavBar = () => {
   return (
     <HStack padding="10px">
       <Link to="/" onClick={() => setSearchText("")}>
-        <Image src={logo} boxSize="60px" objectFit="cover" />
+        <Image src={logo} boxSize="80px" objectFit="contain" />
       </Link>
 
       <SearchInput />

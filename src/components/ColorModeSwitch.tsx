@@ -1,17 +1,31 @@
-import { HStack, Switch, Text, useColorMode } from "@chakra-ui/react";
+import { Box, IconButton, Tooltip, useColorMode } from "@chakra-ui/react";
+import { FaMoon } from "react-icons/fa";
+import { GoSun } from "react-icons/go";
+import useNavIconColor from "../hooks/useNavIconColor";
 
 const ColorModeSwitch = () => {
   const { toggleColorMode, colorMode } = useColorMode();
+  const backgroundColor = useNavIconColor();
 
   return (
-    <HStack>
-      <Switch
-        colorScheme="green"
-        isChecked={colorMode === "dark"}
-        onChange={toggleColorMode}
-      />
-      <Text whiteSpace="nowrap">Dark Mode</Text>
-    </HStack>
+    <Box width="auto" alignSelf="center">
+      <Tooltip
+        label={
+          colorMode === "dark" ? "Deactivate dark mode" : "Activate dark mode"
+        }
+        placement="top-start"
+      >
+        <IconButton
+          aria-label="Toggle color mode"
+          icon={colorMode === "dark" ? <GoSun /> : <FaMoon />}
+          onClick={toggleColorMode}
+          variant="ghost"
+          size="lg"
+          fontSize="1.5rem"
+          colorScheme={backgroundColor}
+        />
+      </Tooltip>
+    </Box>
   );
 };
 
