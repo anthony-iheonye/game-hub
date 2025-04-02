@@ -1,20 +1,26 @@
-# Game Hub
+# Game Port
 
-Welcome to **Game Hub**, a web app designed to be your ultimate guide to discovering exciting games across multiple platforms—PC, PlayStation, Xbox, Android, Linux, Nintendo, and more. Powered by the RAWG Video Games Database API, **Game Hub** offers detailed insights into thousands of games, including platform compatibility, ratings, descriptions, and more. Effortlessly search by platform, genre, keyword, and more to find your next gaming adventure. Dive in and explore your new favorite games with **Game Hub!**
+Welcome to **Game Port**, a web app designed to be your ultimate guide to discovering exciting games across multiple platforms—PC, PlayStation, Xbox, Android, Linux, Nintendo, and more. Powered by the RAWG Video Games Database API, **Game Port** offers detailed insights into thousands of games, including platform compatibility, ratings, descriptions, and more. Effortlessly search by platform, genre, keyword, and more to find your next gaming adventure. Dive in and explore your new favorite games with **Game Port!**
 
 ## Table of Contents
 
-- [Demo](#demo)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Setup and Installation](#setup-and-installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+- [Game Port](#game-port)
+  - [Table of Contents](#table-of-contents)
+  - [Demo](#demo)
+    - [Laptop](#laptop)
+    - [Tablet](#tablet)
+    - [Mobile](#mobile)
+  - [Features](#features)
+  - [Technologies Used](#technologies-used)
+  - [Setup and Installation](#setup-and-installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [License](#license)
+  - [Author](#author)
 
 ## Demo
 
-Check out the live application here: [Game Hub](https://anthonyiheonye.com/)
+Check out the live application here: [Game Port](https://gameport.app/)
 
 ### Laptop
 
